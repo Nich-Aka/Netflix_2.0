@@ -1,0 +1,159 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary2 {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #b51010; /* Change to red */
+    --bs-btn-border-color: #b51010; /* Change to red */
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #b51010; /* Darker red for hover */
+    --bs-btn-hover-border-color: #b51010; /* Darker red for hover */
+    --bs-btn-focus-shadow-rgb: 255, 0, 0; /* Red focus shadow */
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b51010; /* Darker red for active */
+    --bs-btn-active-border-color: red; /* Darker red for active */
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #b51010; /* Change to red */
+    --bs-btn-disabled-border-color: #b51010; /* Change to red */
+}
+.btn-outline-primary {
+    --bs-btn-color: #b51010;
+    --bs-btn-border-color: #b51010;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #b51010;
+    --bs-btn-hover-border-color: red;
+    --bs-btn-focus-shadow-rgb: 255,0,0;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b51010;
+    --bs-btn-active-border-color: #b51010;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #b51010;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #b51010;
+    --bs-gradient: none;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #b51010;
+    --bs-btn-border-color: #b51010;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #b51010;
+    --bs-btn-hover-border-color: #b51010;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b51010;
+    --bs-btn-active-border-color: #b51010;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #b51010;
+    --bs-btn-disabled-border-color: #b51010;
+}
+
+.btn-primary {
+    --bs-btn-color: #b51010; /* Text color when not hovered */
+    --bs-btn-bg: #fff; /* Background color when not hovered */
+    --bs-btn-border-color: #b51010; /* Border color when not hovered */
+    --bs-btn-hover-color: #fff; /* Text color when hovered */
+    --bs-btn-hover-bg: #b51010; /* Background color when hovered */
+    --bs-btn-hover-border-color: #b51010; /* Border color when hovered */
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
+    --bs-btn-active-color: #fff; /* Text color when active */
+    --bs-btn-active-bg: #b51010; /* Background color when active */
+    --bs-btn-active-border-color: #b51010; /* Border color when active */
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #b51010;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #b51010;
+    --bs-gradient: none;
+}
+
+.py-5 {
+    padding-top: 1cm !important;
+}
+
+#Netflix-head {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('nn.jpg');
+    background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+
+.divider {
+    border-bottom: 1px solid ; 
+    margin-bottom: 7px;
+    background-color: #660404 !important;
+}
+
+
+
+#Netflix-foot.net-foot {
+    background-color: black; 
+    color: #c1bbbb; 
+    padding: 20px 0; 
+}
+
+#net-inc{
+    color: white;
+}
+
+#Netflix-foot.net-foot a, #Netflix-foot.net-foot ul, #Netflix-foot.net-foot li {
+    color:#c1bbbb ; 
+}
+
+#Netflix-foot.net-foot a:hover {
+    color: #b51010; 
+}        
+
+.text-body-secondary {
+    --bs-text-opacity: 6;
+    color: #c1bbbb !important;
+}
+
+ul li {
+    text-decoration: underline;
+}
+
+#net{
+    background-color: black; 
+    color: #c1bbbb; 
+    padding: 20px 0; 
+}
+
+.text-body-emphasis {
+    --bs-text-opacity: 6;
+    color: white !important;
+}
+
+
+.custom-image {
+    transform: scale(1.4); 
+    margin-left: -80px; 
+}
+
+
+@media (max-width: 992px) {
+    .custom-image {
+        transform: scale(1); 
+        margin-left: 0; 
+    }
+}
+
+.custom-image2 {
+    transform: scale(1.3); 
+    margin-left: -20px; 
+}
+
+
+@media (max-width: 992px) {
+    .custom-image2 {
+        transform: scale(1); 
+        margin-left: 0; 
+    }
+}
+
